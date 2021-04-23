@@ -1,7 +1,11 @@
 class PortfoliosController < ApplicationController
   
   def index
-    @portfolio_items = Portfolio.all 
+    @portfolio_items = Portfolio.all
+  end
+
+  def react
+    @react_portfolio_items = Portfolio.react
   end
 
   def show
