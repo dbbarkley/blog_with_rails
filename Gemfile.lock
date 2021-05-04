@@ -45,6 +45,7 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (10.2.4.0)
       execjs
+    barkley_view_tool (0.1.0)
     bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.7.3)
@@ -196,6 +197,7 @@ PLATFORMS
   x86_64-darwin-18
 
 DEPENDENCIES
+  barkley_view_tool (~> 0.1.0)
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
