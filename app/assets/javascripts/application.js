@@ -15,5 +15,7 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require activestorage
+//= require cocoon
+//= require gritter
 //= require_tree .
 //= require bootstrap-sprockets
