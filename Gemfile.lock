@@ -227,6 +227,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.2.5)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -320,6 +321,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.11)
   rails (~> 5.2.3)
+  redis (~> 4.2, >= 4.2.5)
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
