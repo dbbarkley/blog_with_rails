@@ -9,6 +9,12 @@
 
     <meta name="keywords" content="<%= @seo_keywords %>" >
 
+    <%= favicon_link_tag 'favicons/favicon.ico' %>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -16,7 +22,6 @@
   <body>
     
     <%= render 'shared/blog_nav' %>
-
     <%= render 'shared/blog_masthead' %>
 
     <div class="container">
@@ -32,8 +37,6 @@
       <%= render 'shared/blog_footer' %>
 
       <%= alerts %>
-
-      <%= source_helper("blog") %>
     </div>
   </body>
 </html>
